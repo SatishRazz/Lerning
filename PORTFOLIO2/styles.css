@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(239, 236, 236);
+}
+
+.sider {
+    background: rgb(94, 17, 17);
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 30px;
+    height: 100%;
+    padding: 20px 0;
+    transition: all 0.5s ease;
+}
+
+.profile {
+    background: rgb(94, 17, 17);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 350px;
+    height: 100%;
+    padding: 20px 0 10px 10px;
+    transition: all 0.5s ease;
+}
+
+.profile .logo {
+    width: 180px;
+    height: 180px;
+    margin-left: 50px;
+}
+
+.profile ul li a {
+    font-family: cursive;
+    display: block;
+    color: rgb(241, 237, 237);
+    font-size: 30px;
+    height: 40px;
+    margin: 30px 70px;
+    text-decoration: none;
+
+}
+
+.profile ul li a:hover,
+.profile ul li a.active {
+    color: #0c7db1;
+}
+
+.photo {
+    position: relative;
+    float: right;
+    margin-top: 50px;
+    margin-right: 50px;
+
+    height: 500px;
+    width: 500px;
+    background: transparent;
+    border-radius: 30%;
+}
+
+.name h1 {
+    font-size: 60px;
+    margin-left: 400px;
+    margin-top: 30px;
+}
+
+.name h4 {
+    font-family: cursive;
+    font-size: 20px;
+    margin-left: 400px;
+    margin-top: 10px;
+}
+
+.name p {
+    font-family: cursive;
+    font-size: 30px;
+    margin-left: 400px;
+}
+
+.btnlogin {
+    text-decoration: none;
+    background-color: rgb(81, 216, 233);
+    margin-top: 40px;
+    padding: 10px 20px;
+    margin-left: 400px;
+    border-radius: 15px;
+    border: 5px solid rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.btnlogin:hover {
+    background: rgb(218, 178, 46);
+    color: #ffff;
+}
+
+.btnlr {
+    text-decoration: none;
+    background-color: rgb(81, 216, 233);
+    margin-top: 40px;
+    padding: 10px 20px;
+    margin-left: 40px;
+    border-radius: 15px;
+    border: 5px solid rgb(1, 56, 114);
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.btnlr:hover {
+    background: rgb(218, 178, 46);
+    color: #ffff;
+}
+
+.slink {
+    position: absolute;
+    display: flex;
+    margin-left: 400px;
+    margin-top: 50px;
+    width: 170px;
+    justify-content: space-between;
+
+}
+
+.slink a {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border-radius: 50%;
+    margin-left: 10px;
+
+}
+
+
+.slink a img {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
